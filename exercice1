@@ -1,0 +1,23 @@
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> fichier = open("C:\\Users\\maria\\Desktop\\exercice1.txt", "a")
+>>> fichier.write("\HELLO WORD")
+11
+>>> import os
+>>> os.getcwd
+<built-in function getcwd>
+>>> import os
+>>> os.getcwd()
+'C:\\Users\\maria\\AppData\\Local\\Programs\\Python\\Python38-32'
+>>> fichier = open("exercice1.py", "x")
+>>> import os
+>>> os.getcsd()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'os' has no attribute 'getcsd'
+>>> import os
+>>> os.getcwd()
+'C:\\Users\\maria\\AppData\\Local\\Programs\\Python\\Python38-32'
+>>> fichier = open("C:\\Users\\maria\\AppData\\Local\\Programs\\Python\\Python38-32\\exercice1.py", "a")
+>>> fichier.write("ENCORE")
+6
